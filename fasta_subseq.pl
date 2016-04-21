@@ -5,15 +5,15 @@ print "Enter the input FASTA file name";
 $input = <>;
 chomp ($input);
 
-print "Enter the start coordinate";
+print "Enter the start coordinate of substring";
 $start_codi = <>;
 chomp ($start_codi);
 
-print "Enter the end coordinate";
+print "Enter the end coordinate of substring";
 $end_codi = <>;
 chomp ($end_codi);
 
-print "Enter the feature of DNA";
+print "Enter the feature of DNA strand";
 $feature = <>;
 chomp ($feature);
 #open the file
@@ -66,4 +66,5 @@ chomp ($sub_seq);
 
 }
 
+close FASTA;
 exit;
